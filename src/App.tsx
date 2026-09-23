@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import ProjectDetailUtepils from "./pages/ProjectDetailUtepils";
 import ProjectDetailCannibal from "./pages/ProjectDetailCannibal";
+import ProjectDetailTI from "./pages/ProjectDetailTI";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<Navigate to="/#about" replace/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/TI" element={<ProjectDetailTI/>}/>
             <Route path="/Utepils" element={<ProjectDetailUtepils/>}/>
             <Route path="/Cannibal" element={<ProjectDetailCannibal/>}/>
           </Routes>

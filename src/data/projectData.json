@@ -2,7 +2,23 @@
 [
     {
         "id": 1,
+        "title": "Trailer Asset Sharing",
+        "page": "TI",
+        "category": "WEB",
+        "role": "Developer",
+        "year": "2020",
+        "description": "Asset sharing to reduce empty trailer repositioning in RoRo shipping",
+        "img": "dfds/test3.png",
+        "mock1": "dfds/networkopt.png",
+        "mock2": "mock2_utepils.png",
+        "techstack": ["Python", "TypeScript"],
+        "link": "https://github.com/erikmannsverk/Utepils"
+
+    },
+    {
+        "id": 2,
         "title": "Utepils",
+        "page": "Utepils",
         "category": "MOBILE",
         "role": "Developer",
         "year": "2020",
@@ -15,12 +31,13 @@
 
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Cannibal",
+        "page": "Cannibal",
         "category": "WEB",
         "role": "Full Stack Developer",
         "year": "2023",
-        "description": "Backend for casting agency",
+        "description": "Website and user system for a casting agency",
         "img": "can.png",
         "mock1": "mock.png",
         "mock2": "mock2.png",
