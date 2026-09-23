@@ -41,7 +41,7 @@ export function NavbarDefault() {
 
         <div className= "rounded-full shadow-md lg:items-center lg:justify-around h-14 hidden lg:flex bg-white">
           <LinkNav linkName={''} title={'Home'}></LinkNav>
-          <LinkNav linkName={'about'} title={'About'}></LinkNav>
+          <LinkNav linkName={'#about'} title={'About'}></LinkNav>
         </div>
 
         <div className= "rounded-full shadow-md lg:items-center lg:justify-around w-14 h-14 hidden lg:flex bg-white">
@@ -95,7 +95,7 @@ export function NavbarDefault() {
           <NavLink className={({ isActive }) => (isActive ? 'text-gray-700' : 'text-gray-400')} to={"/"}>
                 <p className='text-left font-sans p-2 text-xl  tracking-wide'>Home</p>
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'text-gray-700' : 'text-gray-400')} to={"/about"}>
+          <NavLink className={({ isActive }) => (isActive ? 'text-gray-700' : 'text-gray-400')} to={"/#about"}>
                 <p className='text-left font-sans p-2 text-xl  tracking-wide'>About</p>
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'text-gray-700' : 'text-gray-400')} to={"/contact"}>

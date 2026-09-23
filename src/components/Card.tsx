@@ -28,16 +28,16 @@ export function HorizontalCard({project}: ProjectsProps) {
 
     return (
         <NavLink className='nav-link' to={`/${project.title}`}>
-            <div className="my-32 lg:h-1/4 h-1/3 flex justify-center">
+            <div className="my-32 flex justify-center">
             <Card className="w-full bg-blue-gray-50 shadow-none w-90% lg:flex-row flex-col rounded-3xl hover:transform hover:shadow-lg hover:scale-105 transition ease-in-out duration-700">
-                <div className="lg:w-3/5 lg:h-full sm:h-1/2 lg:pt-8 overflow-hidden items-center px-6  shrink-0">
+                <div className="lg:w-3/5 lg:pt-8 overflow-hidden items-center px-6 shrink-0">
                     <img
                         src={`images/${project.img}`}
                         alt="Transparent Image"
-                        className="lg:h-full lg:w-full h-auto w-auto object-cover"
+                        className="w-full h-auto object-cover"
                     />
                     </div>
-                <div className="lg:w-2/5 lg:h-full lg:pt-12 h-1/2 pt-2 lg:px-4 px-12">
+                <div className="lg:w-2/5 lg:pt-12 pt-2 pb-8 lg:px-4 px-12">
                 
                     <Typography className="my-2 lg:text-sm text-xs uppercase text-blue-500">
                     {project.category}
