@@ -6,6 +6,7 @@ import ScrollToTop from '../assets/ScrollToTop';
 // Remove an entry if you don't have an icon for it.
 const languages = [
     { id: 1, img: "/images/languages/python.svg", name: "Python" },
+    { id: 2, img: "/images/languages/typescript.svg", name: "TypeScript" },
 ]
 
 function ProjectDetailTI() {
@@ -50,7 +51,7 @@ function ProjectDetailTI() {
                     </p>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/ti_2.webp" alt="Trailer Asset Sharing"></img>
+                        <img src="/images/dfds/networkopt.webp" alt="Trailer Asset Sharing"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">

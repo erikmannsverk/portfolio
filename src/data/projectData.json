@@ -6,13 +6,13 @@
         "page": "TI",
         "category": "WEB",
         "role": "Developer",
-        "year": "2020",
+        "year": "2025",
         "description": "Asset sharing to reduce empty trailer repositioning in RoRo shipping",
         "img": "dfds/test3.webp",
         "mock1": "dfds/networkopt.webp",
         "mock2": "mock2_utepils.webp",
         "techstack": ["Python", "TypeScript"],
-        "link": "https://github.com/erikmannsverk/Utepils"
+        "link": ""
 
     },
     {
@@ -21,7 +21,7 @@
         "page": "Utepils",
         "category": "MOBILE",
         "role": "Developer",
-        "year": "2020",
+        "year": "2021",
         "description": "Beer based on weather data",
         "img": "mock_liten.webp",
         "mock1": "mock.webp",

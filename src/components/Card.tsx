@@ -33,7 +33,7 @@ export function HorizontalCard({project}: ProjectsProps) {
                 <div className="lg:w-3/5 lg:pt-6 overflow-hidden items-center px-6 shrink-0">
                     <img
                         src={`images/${project.img}`}
-                        alt="Transparent Image"
+                        alt={project.title}
                         loading="lazy"
                         className="w-full lg:h-64 h-48 object-contain"
                     />

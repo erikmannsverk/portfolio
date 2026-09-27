@@ -4,21 +4,9 @@ import ScrollToTop from '../assets/ScrollToTop';
 import { Typography } from '@material-tailwind/react';
 
 const languages = [
-    {
-        "id": 1,
-        "img": "/images/languages/react.webp",
-        "name": "Kotlin"
-    },
-    {
-        "id": 2,
-        "img": "/images/languages/firebase.webp",
-        "name": "Jetpack Compose"
-    },
-    {
-        "id": 3,
-        "img": "/images/languages/html.webp",
-        "name": "Figma"
-    }
+    { id: 1, img: "/images/languages/react.webp", name: "React" },
+    { id: 2, img: "/images/languages/firebase.webp", name: "Firebase" },
+    { id: 3, img: "/images/languages/html.webp", name: "HTML" },
 ]
 
 function ProjectDetailCannibal() {
@@ -42,7 +30,7 @@ function ProjectDetailCannibal() {
 
                         <div className='flex justify-between lg:w-1/4 w-1/3'>
                             {languages.map((item, index)=> (
-                                <img key={index} src={item.img} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
+                                <img key={index} src={item.img} alt={item.name} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
                             ))}
                         </div>
                         <Typography as="a" target="_blank" href="https://cannibal.no/" className="opacity-80 transition-opacity hover:opacity-100">

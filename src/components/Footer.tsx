@@ -9,7 +9,7 @@ function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {2023} Erik Mannsverk. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Erik Mannsverk. All Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography as="a" target="_blank" href="https://www.facebook.com/profile.php?id=100008898366727" className="opacity-80 transition-opacity hover:opacity-100">
