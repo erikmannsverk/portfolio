@@ -6,22 +6,22 @@ import { Typography } from '@material-tailwind/react';
 const languages = [
     {
         "id": 1,
-        "img": "/images/languages/kotlin.png",
+        "img": "/images/languages/kotlin.webp",
         "name": "Kotlin"
     },
     {
         "id": 2,
-        "img": "/images/languages/jetpack.png",
+        "img": "/images/languages/jetpack.webp",
         "name": "Jetpack Compose"
     },
     {
         "id": 3,
-        "img": "/images/languages/figma.png",
+        "img": "/images/languages/figma.webp",
         "name": "Figma"
     },
     {
         "id": 4,
-        "img": "/images/languages/android.png",
+        "img": "/images/languages/android.webp",
         "name": "Android"
     }
 ]
@@ -60,13 +60,13 @@ function ProjectDetailUtepils() {
                     </div>
                     
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/mock.png"></img>
+                        <img src="/images/mock.webp"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">"Utepils" shows you nearby bars, resturants and nightclubs where you can get a beer, including the price level and ratings. To achive this we used the Google Places API. </p>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/mock2_utepils.png"></img>
+                        <img src="/images/mock2_utepils.webp"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">The app also reccomends drinks and beers based on the current weather. The weather data is from the MET api.</p>

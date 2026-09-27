@@ -23,10 +23,10 @@ function Contact() {
         </p>
         <div className="flex justify-center mt-5">
           <a target="_blank" href="https://github.com/erikmannsverk" className="opacity-60 hover:opacity-80">
-            <img src="/images/github.png" alt="GitHub" className="mx-2 h-5 w-5" />
+            <img src="/images/github.webp" alt="GitHub" className="mx-2 h-5 w-5" />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/erik-mannsverk/" className="opacity-60 hover:opacity-80">
-            <img src="/images/linkedin.png" alt="LinkedIn" className="mx-2 h-5 w-5" />
+            <img src="/images/linkedin.webp" alt="LinkedIn" className="mx-2 h-5 w-5" />
           </a>
         </div>
       </div>

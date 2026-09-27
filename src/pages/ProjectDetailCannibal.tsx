@@ -6,17 +6,17 @@ import { Typography } from '@material-tailwind/react';
 const languages = [
     {
         "id": 1,
-        "img": "/images/languages/react.png",
+        "img": "/images/languages/react.webp",
         "name": "Kotlin"
     },
     {
         "id": 2,
-        "img": "/images/languages/firebase.png",
+        "img": "/images/languages/firebase.webp",
         "name": "Jetpack Compose"
     },
     {
         "id": 3,
-        "img": "/images/languages/html.png",
+        "img": "/images/languages/html.webp",
         "name": "Figma"
     }
 ]
@@ -53,7 +53,7 @@ function ProjectDetailCannibal() {
                     </div>
 
                     <div className="w-full relative max-w-5xl mx-auto flex justify-center object-cover h-full sm:h-[480px]">
-                        <img src="/images/canni_final.png"></img>
+                        <img src="/images/canni_final.webp"></img>
                     </div>
 
                     <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">Cannibal is a casting agency that assists in finding the right actors for the right roles. We have a database with a wide range of actors and amateurs and go to great lengths to meet the preferences of directors and producers. We have experience with both feature films, TV series, and commercials.

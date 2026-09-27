@@ -1673,11 +1673,6 @@ react-dom@^18.2.0, react-dom@>=16.8, "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", r
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hotjar@^6.3.1:
-  version "6.3.1"
-  resolved "https://registry.npmjs.org/react-hotjar/-/react-hotjar-6.3.1.tgz"
-  integrity sha512-EwMqL+ROSlKzatMhT/aqRq7XWWfzlnHynSBSTJh5M2O78mBiPohiSl4Ysls3HOQkkD9y6L22BW0c9bxK2JguwQ==
-
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"

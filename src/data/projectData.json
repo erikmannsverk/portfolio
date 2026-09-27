@@ -8,9 +8,9 @@
         "role": "Developer",
         "year": "2020",
         "description": "Asset sharing to reduce empty trailer repositioning in RoRo shipping",
-        "img": "dfds/test3.png",
-        "mock1": "dfds/networkopt.png",
-        "mock2": "mock2_utepils.png",
+        "img": "dfds/test3.webp",
+        "mock1": "dfds/networkopt.webp",
+        "mock2": "mock2_utepils.webp",
         "techstack": ["Python", "TypeScript"],
         "link": "https://github.com/erikmannsverk/Utepils"
 
@@ -23,9 +23,9 @@
         "role": "Developer",
         "year": "2020",
         "description": "Beer based on weather data",
-        "img": "mock_liten.png",
-        "mock1": "mock.png",
-        "mock2": "mock2_utepils.png",
+        "img": "mock_liten.webp",
+        "mock1": "mock.webp",
+        "mock2": "mock2_utepils.webp",
         "techstack": ["Kotlin", "Android Studio", "Jetpack Compose", "Figma", "Jira"],
         "link": "https://github.com/erikmannsverk/Utepils"
 
@@ -38,9 +38,9 @@
         "role": "Full Stack Developer",
         "year": "2023",
         "description": "Website and user system for a casting agency",
-        "img": "can.png",
-        "mock1": "mock.png",
-        "mock2": "mock2.png",
+        "img": "can.webp",
+        "mock1": "mock.webp",
+        "mock2": "mock2.webp",
         "techstack": ["React", "JavaScript", "CSS", "HTML", "Firebase"],
         "link": "https://cannibal.no/"
     }

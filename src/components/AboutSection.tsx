@@ -1,6 +1,6 @@
 // ---------------------------------------------------------------------------
 // Edit your experience and education here. The page updates automatically.
-// logo is optional: put an image in public/images and write e.g. "/images/dfds.png".
+// logo is optional: put an image in public/images and write e.g. "/images/dfds.webp".
 // Without a logo, the first letter of the company is shown instead.
 // ---------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ type School = {
 const experience: Job[] = [
   {
     company: "DFDS",
-    logo: "/images/dfds.jpg",
+    logo: "/images/dfds.webp",
     details: "Part-time · Copenhagen, Denmark",
     roles: [
       {
@@ -53,7 +53,7 @@ const experience: Job[] = [
   },
   {
     company: "Coop Norge",
-    logo: "/images/coop.png",
+    logo: "/images/coop.webp",
     details: "Part-time · Tåsen, Oslo",
     roles: [{ title: "Store Associate", dates: "Jun 2020 – Aug 2022" }],
   },
@@ -62,19 +62,19 @@ const experience: Job[] = [
 const education: School[] = [
   {
     name: "Copenhagen Business School",
-    logo: "/images/cbs.png",
+    logo: "/images/cbs.webp",
     degree: "MSc EBA in Finance and Investments",
     dates: "Aug 2025 – Jun 2027",
   },
   {
     name: "Copenhagen Business School",
-    logo: "/images/cbs.png",
+    logo: "/images/cbs.webp",
     degree: "BSc in Economics and Business Administration",
     dates: "Aug 2022 – Jun 2025",
   },
    {
     name: "University of Oslo",
-    logo: "/images/UiO_logo.png",
+    logo: "/images/UiO_logo.webp",
     degree: "BSc in Informatics",
     dates: "Aug 2020 – Jun 2023",
   },
@@ -153,7 +153,7 @@ function AboutSection() {
       </h2>
 
       <img
-        src="/images/about-min.png"
+        src="/images/about-min.webp"
         alt="Erik Mannsverk"
         className="w-full object-cover rounded-3xl"
       />

@@ -6,19 +6,12 @@ import { NavbarDefault } from "../components/NavbarDefault"
 import Footer from "../components/Footer"
 import AboutSection from "../components/AboutSection"
 
-import { hotjar } from 'react-hotjar'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
 function Home() {
   const { hash } = useLocation()
 
-  useEffect(() => {
-    hotjar.initialize({
-      id: 3780129,
-      sv: 6
-    })
-  }, [])
   // When the address ends in #about, scroll down to the About section.
   // Otherwise (clicking "Home"), go back to the top.
   useEffect(() => {

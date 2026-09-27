@@ -34,6 +34,7 @@ export function HorizontalCard({project}: ProjectsProps) {
                     <img
                         src={`images/${project.img}`}
                         alt="Transparent Image"
+                        loading="lazy"
                         className="w-full lg:h-64 h-48 object-contain"
                     />
                 </div>

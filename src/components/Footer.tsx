@@ -31,7 +31,7 @@ function Footer() {
               </svg>
             </Typography>
             <Typography as="a" target="_blank" href="https://www.linkedin.com/in/erik-mannsverk/" className="opacity-60 transition-opacity hover:opacity-100">
-                <img src="/images/linkedin2.png" className="h-5 w-5"></img>
+                <img src="/images/linkedin2.webp" className="h-5 w-5"></img>
             </Typography>
             <Typography as="a" target="_blank" href="https://github.com/erikmannsverk" className="opacity-80 transition-opacity hover:opacity-100">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

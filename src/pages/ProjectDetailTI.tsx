@@ -1,16 +1,11 @@
 import { NavbarDefault } from '../components/NavbarDefault';
 import Footer from '../components/Footer';
 import ScrollToTop from '../assets/ScrollToTop';
-import { Typography } from '@material-tailwind/react';
 
 // Tech icons shown above the images. Put the icon files in public/images/languages.
 // Remove an entry if you don't have an icon for it.
 const languages = [
-    {
-        "id": 1,
-        "img": "/images/languages/python.png",
-        "name": "Python"
-    },
+    { id: 1, img: "/images/languages/python.svg", name: "Python" },
 ]
 
 function ProjectDetailTI() {
@@ -38,7 +33,7 @@ function ProjectDetailTI() {
                     </div>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/dfds/test3.png" alt="Trailer Asset Sharing"></img>
+                        <img src="/images/dfds/test3.webp" alt="Trailer Asset Sharing"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
@@ -48,14 +43,14 @@ function ProjectDetailTI() {
                     </p>
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
                         A problem every operator shares is empty repositioning: trailers often have to be shipped
-                        back empty to where they are needed next. While empty container repositioning is well
+                        back empty to where they are needed next. Whqile empty container repositioning is well
                         studied, the European trailer market has received far less attention, even though
                         maritime and inland waterway transport account for about a third of European freight
                         (measured in ton-kilometres), compared with 55% for road.
                     </p>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/ti_2.png" alt="Trailer Asset Sharing"></img>
+                        <img src="/images/ti_2.webp" alt="Trailer Asset Sharing"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">

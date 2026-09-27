@@ -11,14 +11,14 @@ import { NavLink } from "react-router-dom";
 export function NavbarDefault() {
   const [openNav, setOpenNav] = React.useState(false);
 
-  const [currentImage, setCurrentImage] = useState('./images/memoji_data.png');
+  const [currentImage, setCurrentImage] = useState('./images/memoji_data.webp');
 
   const handleClick = () => {
     // Add your desired action here
-    if (currentImage === './images/memoji_data.png') {
-      setCurrentImage('./images/memoji_wave.png');
+    if (currentImage === './images/memoji_data.webp') {
+      setCurrentImage('./images/memoji_wave.webp');
     } else {
-      setCurrentImage('./images/memoji_data.png');
+      setCurrentImage('./images/memoji_data.webp');
     }
   };
  
@@ -48,7 +48,7 @@ export function NavbarDefault() {
         <NavLink 
           className='nav-link'
           to={"/contact"}>
-            <Avatar src="images/mail_no_bg.png" alt="avatar" />
+            <Avatar src="images/mail_no_bg.webp" alt="avatar" />
         </NavLink>
         </div>
         {/* This is for the menu part */}
