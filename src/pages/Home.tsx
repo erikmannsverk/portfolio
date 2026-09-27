@@ -26,7 +26,7 @@ function Home() {
     <>
     <NavbarDefault/>
     <div className="flex justify-center">
-      <div className="w-3/5">
+      <div className="w-11/12 lg:w-[55%]">
         <Hero/>
         {projectData.map((project) => (
           <HorizontalCard key={project.id} project={project} />

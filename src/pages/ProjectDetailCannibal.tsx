@@ -22,14 +22,19 @@ function ProjectDetailCannibal() {
                 <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">User authentication backend with Firebase and React</p>
                 </div>
 
-                <div className="mt-20 relative max-w-5xl mx-auto">
+                <div className="mt-20 relative max-w-4xl mx-auto">
                 
-                <div className='relative max-w-5xl mx-auto border-t border-blue-gray-100 pt-4'>
+                <div className='relative max-w-4xl mx-auto border-t border-blue-gray-100 pt-4'>
                     <div className="flex justify-between py-2 mb-10 h-14">
 
-                        <div className='flex justify-between lg:w-1/4 w-1/3'>
+                        <div className='flex gap-4 lg:w-1/4 w-1/3'>
                             {languages.map((item, index)=> (
-                                <img key={index} src={item.img} alt={item.name} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
+                                <span key={index} className="group relative h-full">
+                                    <img src={item.img} alt={item.name} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
+                                    <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-2 -translate-x-1/2 whitespace-nowrap rounded bg-gray-800 px-2 py-1 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100">
+                                        {item.name}
+                                    </span>
+                                </span>
                             ))}
                         </div>
                         <a target="_blank" rel="noreferrer" href="https://cannibal.no/" className="opacity-80 transition-opacity hover:opacity-100">
@@ -39,7 +44,7 @@ function ProjectDetailCannibal() {
                         </a>
                     </div>
 
-                    <div className="w-full relative max-w-5xl mx-auto flex justify-center object-cover h-full sm:h-[480px]">
+                    <div className="w-full relative max-w-4xl mx-auto flex justify-center object-cover h-full sm:h-[480px]">
                         <img src="/images/canni_final.webp" alt="Cannibal casting agency website" decoding="async"></img>
                     </div>
 

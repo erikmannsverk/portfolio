@@ -26,7 +26,7 @@ export function HorizontalCard({project}: ProjectsProps) {
         <NavLink className='nav-link' to={`/${project.page}`}>
             <div className="my-16 flex justify-center">
             <div className="group relative flex w-full bg-blue-gray-50 bg-clip-border shadow-none w-90% lg:flex-row flex-col rounded-3xl hover:transform hover:shadow-lg hover:scale-[1.02] transition ease-in-out duration-300">
-                <div className="lg:w-3/5 lg:pt-6 overflow-hidden items-center px-6 shrink-0">
+                <div className="lg:w-3/5 pt-4 lg:pt-6 overflow-hidden items-center px-6 shrink-0">
                     <img
                         src={`images/${project.img}`}
                         alt={project.title}

@@ -28,8 +28,8 @@ export function NavbarDefault() {
   }, []);
   
   return (
-    <div className="sticky top-0 lg:px-12 z-10 mx-auto max-w-screen-lg py-6 ">
-      <div className="container mx-auto bg-transparent flex items-center justify-between text-blue-gray-900 px-10">
+    <div className="sticky top-0 z-10 mx-auto max-w-screen-lg py-6 lg:px-12">
+      <div className="container mx-auto flex items-center justify-between bg-transparent px-4 text-blue-gray-900 lg:px-10">
 
         <div className='bg-white shadow-md rounded-full w-14 h-14 flex items-center justify-around'>
           <button className="">
