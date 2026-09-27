@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-import {
-  IconButton,
-  Avatar,
-  Collapse,
-} from "@material-tailwind/react";
 import LinkNav from "./LinkNav";
 import { NavLink } from "react-router-dom";
 
@@ -23,10 +18,13 @@ export function NavbarDefault() {
   };
  
   React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false),
-    );
+    const handleResize = () => {
+      if (window.innerWidth >= 960) setOpenNav(false);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
   
   return (
@@ -35,7 +33,7 @@ export function NavbarDefault() {
 
         <div className='bg-white shadow-md rounded-full w-14 h-14 flex items-center justify-around'>
           <button className="">
-          <Avatar src={currentImage} onClick={handleClick} alt="avatar" />
+          <img src={currentImage} onClick={handleClick} alt="avatar" className="h-10 w-10 rounded-full object-cover" />
           </button>
         </div>
 
@@ -48,14 +46,14 @@ export function NavbarDefault() {
         <NavLink 
           className='nav-link'
           to={"/contact"}>
-            <Avatar src="images/mail_no_bg.webp" alt="avatar" />
+            <img src="images/mail_no_bg.webp" alt="Contact" className="h-10 w-10 rounded-full object-cover" />
         </NavLink>
         </div>
         {/* This is for the menu part */}
-        <IconButton
-          variant="text"
+        <button
+          type="button"
+          aria-label={openNav ? "Close navigation menu" : "Open navigation menu"}
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-          ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
@@ -88,9 +86,9 @@ export function NavbarDefault() {
               />
             </svg>
           )}
-        </IconButton>
+        </button>
       </div>
-      <Collapse open={openNav}>
+      {openNav && (
         <div className="bg-white rounded-xl mr-16 w-64 float-right">
           <NavLink className={({ isActive }) => (isActive ? 'text-gray-700' : 'text-gray-400')} to={"/"}>
                 <p className='text-left font-sans p-2 text-xl  tracking-wide'>Home</p>
@@ -102,7 +100,7 @@ export function NavbarDefault() {
                 <p className='text-left font-sans p-2 text-xl  tracking-wide'>Contact</p>
           </NavLink>
         </div>
-      </Collapse>
+      )}
     </div>
   );
 }

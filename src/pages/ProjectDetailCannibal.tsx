@@ -1,7 +1,6 @@
 import { NavbarDefault } from '../components/NavbarDefault';
 import Footer from '../components/Footer';
 import ScrollToTop from '../assets/ScrollToTop';
-import { Typography } from '@material-tailwind/react';
 
 const languages = [
     { id: 1, img: "/images/languages/react.webp", name: "React" },
@@ -33,15 +32,15 @@ function ProjectDetailCannibal() {
                                 <img key={index} src={item.img} alt={item.name} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
                             ))}
                         </div>
-                        <Typography as="a" target="_blank" href="https://cannibal.no/" className="opacity-80 transition-opacity hover:opacity-100">
+                        <a target="_blank" rel="noreferrer" href="https://cannibal.no/" className="opacity-80 transition-opacity hover:opacity-100">
                             <button className="bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">
                                 Link
                             </button>
-                        </Typography>
+                        </a>
                     </div>
 
                     <div className="w-full relative max-w-5xl mx-auto flex justify-center object-cover h-full sm:h-[480px]">
-                        <img src="/images/canni_final.webp"></img>
+                        <img src="/images/canni_final.webp" alt="Cannibal casting agency website" decoding="async"></img>
                     </div>
 
                     <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">Cannibal is a casting agency that assists in finding the right actors for the right roles. We have a database with a wide range of actors and amateurs and go to great lengths to meet the preferences of directors and producers. We have experience with both feature films, TV series, and commercials.

@@ -1,18 +1,13 @@
-import { Typography } from "@material-tailwind/react"
-
 function Footer() {
   return (
     <footer className="relative w-full">
       <div className="mx-auto lg:w-1/2 w-2/3 max-w-7xl">
         <div className="mt-12 flex w-full flex-col h-24 items-center justify-center border-t border-blue-gray-100 py-4 md:flex-row md:justify-between">
-          <Typography
-            variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
-          >
+          <p className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0">
             &copy; {new Date().getFullYear()} Erik Mannsverk. All Rights Reserved.
-          </Typography>
+          </p>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
-            <Typography as="a" target="_blank" href="https://www.facebook.com/profile.php?id=100008898366727" className="opacity-80 transition-opacity hover:opacity-100">
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100008898366727" className="opacity-80 transition-opacity hover:opacity-100">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fillRule="evenodd"
@@ -20,8 +15,8 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Typography>
-            <Typography as="a" target="_blank" href="https://www.instagram.com/erikmannsverk/" className="opacity-80 transition-opacity hover:opacity-100">
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/erikmannsverk/" className="opacity-80 transition-opacity hover:opacity-100">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fillRule="evenodd"
@@ -29,11 +24,11 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Typography>
-            <Typography as="a" target="_blank" href="https://www.linkedin.com/in/erik-mannsverk/" className="opacity-60 transition-opacity hover:opacity-100">
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-mannsverk/" className="opacity-60 transition-opacity hover:opacity-100">
                 <img src="/images/linkedin2.webp" className="h-5 w-5"></img>
-            </Typography>
-            <Typography as="a" target="_blank" href="https://github.com/erikmannsverk" className="opacity-80 transition-opacity hover:opacity-100">
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/erikmannsverk" className="opacity-80 transition-opacity hover:opacity-100">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fillRule="evenodd"
@@ -41,7 +36,7 @@ function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Typography>
+            </a>
           
           </div>
         </div>

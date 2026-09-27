@@ -1,7 +1,3 @@
-import {
-    Card,
-    Typography,
-} from "@material-tailwind/react";
 import { NavLink } from "react-router-dom";
 
 interface Project {
@@ -29,27 +25,28 @@ export function HorizontalCard({project}: ProjectsProps) {
     return (
         <NavLink className='nav-link' to={`/${project.page}`}>
             <div className="my-16 flex justify-center">
-            <Card className="group w-full bg-blue-gray-50 shadow-none w-90% lg:flex-row flex-col rounded-3xl hover:transform hover:shadow-lg hover:scale-[1.02] transition ease-in-out duration-300">
+            <div className="group relative flex w-full bg-blue-gray-50 bg-clip-border shadow-none w-90% lg:flex-row flex-col rounded-3xl hover:transform hover:shadow-lg hover:scale-[1.02] transition ease-in-out duration-300">
                 <div className="lg:w-3/5 lg:pt-6 overflow-hidden items-center px-6 shrink-0">
                     <img
                         src={`images/${project.img}`}
                         alt={project.title}
                         loading="lazy"
+                        decoding="async"
                         className="w-full lg:h-64 h-48 object-contain"
                     />
                 </div>
                 <div className="lg:w-2/5 lg:self-center pt-2 pb-6 lg:px-4 px-12">
                 
-                    <Typography className="my-2 lg:text-sm text-xs uppercase text-blue-500">
+                    <p className="my-2 block antialiased font-sans font-normal leading-relaxed lg:text-sm text-xs uppercase text-blue-500">
                     {project.category}
-                    </Typography>
-                    <Typography variant="h1" className="mb-2 lg:text-4xl text-2xl font-bold text-gray-800">
+                    </p>
+                    <h2 className="mb-2 block antialiased tracking-normal font-sans leading-tight lg:text-4xl text-2xl font-bold text-gray-800">
                     {project.title}
-                    </Typography>
+                    </h2>
                     
-                    <Typography variant="h4" className="mb-6 lg:text-xl text-lg font-normal text-gray-600">
+                    <p className="mb-6 block antialiased tracking-normal font-sans leading-snug lg:text-xl text-lg font-normal text-gray-600">
                     {project.description}
-                    </Typography>
+                    </p>
 
                     <span className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600">
                         View project
@@ -69,7 +66,7 @@ export function HorizontalCard({project}: ProjectsProps) {
                         </svg>
                     </span>
                 </div>
-            </Card>
+            </div>
             </div>
 
         </NavLink>

@@ -1,7 +1,6 @@
 import { NavbarDefault } from '../components/NavbarDefault';
 import Footer from '../components/Footer';
 import ScrollToTop from '../assets/ScrollToTop';
-import { Typography } from '@material-tailwind/react';
 
 const languages = [
     {
@@ -49,24 +48,24 @@ function ProjectDetailUtepils() {
                     <div className="flex justify-between py-2 h-12">
                         <div className='flex justify-between lg:w-1/4 w-1/3'>
                             {languages.map((item, index)=> (
-                                <img key={index} src={item.img} className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
+                                <img key={index} src={item.img} alt={item.name} decoding="async" className='h-full opacity-90 transition-opacity hover:opacity-100'></img>
                             ))}
                         </div>
-                        <Typography as="a" target="_blank" href="https://github.com/erikmannsverk/Utepils" className="opacity-80 transition-opacity hover:opacity-100">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/erikmannsverk/Utepils" className="opacity-80 transition-opacity hover:opacity-100">
                             <button className="bg-blue-500 h-full hover:bg-blue-600 text-white font-bold  px-4 rounded">
                                 GitHub
                             </button>
-                        </Typography>
+                        </a>
                     </div>
                     
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/mock.webp"></img>
+                        <img src="/images/mock.webp" alt="Utepils app places screen" decoding="async"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">"Utepils" shows you nearby bars, resturants and nightclubs where you can get a beer, including the price level and ratings. To achive this we used the Google Places API. </p>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/mock2_utepils.webp"></img>
+                        <img src="/images/mock2_utepils.webp" alt="Utepils app drink recommendation screen" loading="lazy" decoding="async"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">The app also reccomends drinks and beers based on the current weather. The weather data is from the MET api.</p>

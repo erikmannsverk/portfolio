@@ -34,7 +34,7 @@ function ProjectDetailTI() {
                     </div>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/dfds/test3.webp" alt="Trailer Asset Sharing"></img>
+                        <img src="/images/dfds/test3.webp" alt="Trailer Asset Sharing" decoding="async"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
@@ -51,7 +51,7 @@ function ProjectDetailTI() {
                     </p>
 
                     <div className="w-full flex justify-center mt-10 object-cover h-full sm:h-[480px] rounded-xl">
-                        <img src="/images/dfds/networkopt.webp" alt="Trailer Asset Sharing"></img>
+                        <img src="/images/dfds/networkopt.webp" alt="Trailer network optimization" loading="lazy" decoding="async"></img>
                     </div>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">

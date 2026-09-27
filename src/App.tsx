@@ -1,17 +1,18 @@
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import ProjectDetailUtepils from "./pages/ProjectDetailUtepils";
-import ProjectDetailCannibal from "./pages/ProjectDetailCannibal";
-import ProjectDetailTI from "./pages/ProjectDetailTI";
+
+const Contact = lazy(() => import("./pages/Contact"));
+const ProjectDetailUtepils = lazy(() => import("./pages/ProjectDetailUtepils"));
+const ProjectDetailCannibal = lazy(() => import("./pages/ProjectDetailCannibal"));
+const ProjectDetailTI = lazy(() => import("./pages/ProjectDetailTI"));
 
 function App() {
 
   return (
     <div className='bg-gray-100'>
       <Router>
-        <Suspense fallback={<div />}>
+        <Suspense fallback={<div className="min-h-screen" />}>
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<Navigate to="/#about" replace/>}/>
