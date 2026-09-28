@@ -43,5 +43,19 @@
         "mock2": "mock2.webp",
         "techstack": ["React", "JavaScript", "CSS", "HTML", "Firebase"],
         "link": "https://cannibal.no/"
+    },
+    {
+        "id": 4,
+        "title": "Network Optimization Tool",
+        "page": "NetworkOptimization",
+        "category": "WEB",
+        "role": "Developer",
+        "year": "2026",
+        "description": "Prototype for combining transport demand across offices, customers and tenders",
+        "img": "dfds/networkopt.webp",
+        "mock1": "dfds/networkopt.webp",
+        "mock2": "dfds/networkopt.webp",
+        "techstack": ["Python", "HTML"],
+        "link": ""
     }
 ]

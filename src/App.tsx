@@ -6,6 +6,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const ProjectDetailUtepils = lazy(() => import("./pages/ProjectDetailUtepils"));
 const ProjectDetailCannibal = lazy(() => import("./pages/ProjectDetailCannibal"));
 const ProjectDetailTI = lazy(() => import("./pages/ProjectDetailTI"));
+const ProjectDetailNetworkOptimization = lazy(() => import("./pages/ProjectDetailNetworkOptimization"));
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/TI" element={<ProjectDetailTI/>}/>
             <Route path="/Utepils" element={<ProjectDetailUtepils/>}/>
             <Route path="/Cannibal" element={<ProjectDetailCannibal/>}/>
+            <Route path="/NetworkOptimization" element={<ProjectDetailNetworkOptimization/>}/>
           </Routes>
         </Suspense>
       </Router>

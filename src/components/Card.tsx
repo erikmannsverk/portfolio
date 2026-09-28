@@ -40,7 +40,7 @@ export function HorizontalCard({project}: ProjectsProps) {
                     <p className="my-2 block antialiased font-sans font-normal leading-relaxed lg:text-sm text-xs uppercase text-blue-500">
                     {project.category}
                     </p>
-                    <h2 className="mb-2 block antialiased tracking-normal font-sans leading-tight lg:text-4xl text-2xl font-bold text-gray-800">
+                    <h2 className="mb-2 block antialiased tracking-normal font-sans leading-tight lg:text-3xl text-2xl font-bold text-gray-800">
                     {project.title}
                     </h2>
                     
