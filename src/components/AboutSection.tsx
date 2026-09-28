@@ -35,7 +35,7 @@ const experience: Job[] = [
         title: "Junior Business Analyst",
         dates: "Sep 2024 – Present",
         description:
-          "In a team of 10 in the Logistics Transformation Office, working closely with local leaders across the divisions. Built analyses to support KPI reporting and decision-making in Power BI.",
+          "In a team of 10 in the Logistics Transformation Office, working closely with local leaders across the divisions. Built analyses to support KPI reporting and decision-making. Prototyped tools to model network utilization and expansion opportunities. Developed dashboards for fleet optimization and cost allocation.",
       },
       {
         title: "Student Data Analyst",

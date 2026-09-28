@@ -2,12 +2,12 @@
 [
     {
         "id": 1,
-        "title": "Trailer Asset Sharing",
+        "title": "Trailer Sharing Platform",
         "page": "TI",
         "category": "WEB",
         "role": "Developer",
         "year": "2025",
-        "description": "Asset sharing to reduce empty trailer repositioning in RoRo shipping",
+        "description": "Platform for sharing trailers between operators in the European RoRo market",
         "img": "dfds/test3.webp",
         "mock1": "dfds/networkopt.webp",
         "mock2": "mock2_utepils.webp",
