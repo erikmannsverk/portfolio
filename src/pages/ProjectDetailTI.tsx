@@ -48,7 +48,7 @@ function ProjectDetailTI() {
                     </p>
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
                         A problem every operator shares is empty repositioning: trailers often have to be shipped
-                        back empty to where they are needed next. Whqile empty container repositioning is well
+                        back empty to where they are needed next. While empty container repositioning is well
                         studied, the European trailer market has received far less attention, even though
                         maritime and inland waterway transport account for about a third of European freight
                         (measured in ton-kilometres), compared with 55% for road.
@@ -66,11 +66,11 @@ function ProjectDetailTI() {
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
                         The study explored whether sharing trailers between operators could reduce empty
-                        repositioning, cutting costs and emissions across the market.Based on the findings, a developer in Munich and I built the Trailer Interchange Platform, where operators can find and offer trailers.
+                        repositioning, cutting costs and emissions across the market. Based on the findings, a developer in Munich and I built the Trailer Sharing Platform, where operators can find and offer trailers.
                     </p>
 
                     <p className="my-3 text-lg text-gray-800 dark:text-gray-400">
-                        The Trailer Interchange Platform connected operators who needed trailers with operators who had too many.
+                        The Trailer Sharing Platform connected operators who needed trailers with operators who had too many.
                         A company short on trailers in one location could search the platform or post what it needed, while a company
                         with excess trailers in the same area could offer them up.
                     </p>

@@ -1,28 +1,34 @@
-# React + TypeScript + Vite
+# erikmannsverk.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio: projects in logistics analytics, web and mobile development.
 
-Currently, two official plugins are available:
+**Live:** [www.erikmannsverk.com](https://www.erikmannsverk.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot of the portfolio](public/images/readme-screenshot.webp)
 
-## Expanding the ESLint configuration
+## About me
+MSc Finance & Investments student at Copenhagen Business School, working part-time as a
+Junior Business Analyst at DFDS, where I build analyses and tools for the logistics network.
+Background in software development (BSc Informatics, University of Oslo).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[LinkedIn](https://www.linkedin.com/in/erik-mannsverk/) · [Email](mailto:mannsverkerik@gmail.com)
 
-- Configure the top-level `parserOptions` property like this:
+## Built with
+React · TypeScript · Vite · Tailwind CSS · React Router
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Run locally
+```bash
+git clone https://github.com/erikmannsverk/portfolio.git
+cd portfolio
+npm install
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# portofolio
+## Structure
+```
+src/
+├── components/   # Navbar, Hero, About, project cards, footer
+├── pages/        # Home, contact and one page per project
+└── data/         # projectData.json – project list shown on the home page
+```
+Adding a project = one entry in `projectData.json` + a detail page in `pages/`.
