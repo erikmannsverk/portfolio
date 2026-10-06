@@ -26,13 +26,13 @@ export function HorizontalCard({project}: ProjectsProps) {
         <NavLink className='nav-link' to={`/${project.page}`}>
             <div className="my-16 flex justify-center">
             <div className="group relative flex w-full bg-blue-gray-50 bg-clip-border shadow-none w-90% lg:flex-row flex-col rounded-3xl hover:transform hover:shadow-lg hover:scale-[1.02] transition ease-in-out duration-300">
-                <div className="lg:w-3/5 pt-4 lg:pt-6 overflow-hidden items-center px-6 shrink-0">
+                <div className={`lg:w-3/5 pt-4 lg:pt-6 overflow-hidden items-center px-6 shrink-0 ${project.page === "NetworkOptimization" || project.page === "Cannibal" ? "pb-6" : ""}`}>
                     <img
                         src={`images/${project.img}`}
                         alt={project.title}
                         loading="lazy"
                         decoding="async"
-                        className="w-full lg:h-64 h-48 object-contain"
+                        className={`w-full lg:h-64 h-48 object-contain ${project.page === "NetworkOptimization" ? "scale-90" : ""}`}
                     />
                 </div>
                 <div className="lg:w-2/5 lg:self-center pt-2 pb-6 lg:px-4 px-12">
@@ -40,7 +40,7 @@ export function HorizontalCard({project}: ProjectsProps) {
                     <p className="my-2 block antialiased font-sans font-normal leading-relaxed lg:text-sm text-xs uppercase text-blue-500">
                     {project.category}
                     </p>
-                    <h2 className="mb-2 block antialiased tracking-normal font-sans leading-tight lg:text-3xl text-2xl font-bold text-gray-800">
+                    <h2 className="mb-2 block antialiased tracking-normal font-sans leading-tight lg:text-3xl font-bold text-gray-800">
                     {project.title}
                     </h2>
                     

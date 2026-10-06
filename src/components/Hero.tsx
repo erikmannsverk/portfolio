@@ -13,7 +13,7 @@ function Hero() {
           </div>
 
           <p className="mt-3 text-sm text-gray-700 dark:text-gray-400 lg:text-base">
-              Finance MSc at CBS. I build analytics tools for DFDS&apos;s logistics network, with a background in software development.
+              Finance MSc at CBS. Business analyst at DFDS, with a background in IT.
           </p>
 
           <div className="flex justify-center mt-5">

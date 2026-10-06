@@ -44,11 +44,11 @@ function ProjectDetailNetworkOptimization() {
                         The tool explores route combinations across offices and customers. By combining transport demand, it aims to reduce costs and improve margins, including opportunities to offer customers a lower transport price.
                     </p>
 
-                    <h2 className="mt-12 text-2xl font-bold text-gray-800 dark:text-white">Scope</h2>
+                    <h2 className="mt-12 text-2xl font-bold text-gray-800 dark:text-white">What it does</h2>
                     <ul className="mt-3 list-disc list-inside space-y-2 text-lg text-gray-800 dark:text-gray-400">
-                        <li>Combinations between offices using the same TMS</li>
-                        <li>Combinations between offices using different TMS platforms</li>
-                        <li>Combinations across the whole network and incoming tenders</li>
+                        <li>Maps where equipment builds up and where it runs short, based on booking flows</li>
+                        <li>Solves for the minimum empty kilometres needed to rebalance the network</li>
+                        <li>Adds a new tender on top and shows whether it improves or worsens the balance</li>
                     </ul>
 
                     <p className="mt-8 text-lg text-gray-800 dark:text-gray-400">
